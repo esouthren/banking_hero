@@ -18,32 +18,36 @@ html, body {
 }
 
 .app_image_cell {
-    width: 23%;
+    width: 20%;
 }
 
 .app_image_cell img {
-    height: 95%;
-    top: 50px;
-}
-
-.buttons_cell {
-    width: 15%;
-    background-color: red;
+    height: 90%;
 }
 
 .presentation_text_cell {
-    width: 60%;
-    padding: 5em;
+    width: 80%;
+    padding: 2em;
+    float: left;
+    height: 100%;
+}
+
+.next_slide {
+    width: 20%;
+    bottom: 5em;
+    float: right;
+    right: 20%;
+    position:absolute;
 }
 
 .main_table {
-    height: 10%;
-    
-    width: 100%;
+    width: 100hv;
+overflow: hidden;
+    height: 100%;
 }
 
 .button {
-    font-size: 120%;
+    font-size: 140%;
     border-radius: 0.5em;
     background-color: #063663;
     width: 90%;

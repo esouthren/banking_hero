@@ -2,6 +2,9 @@
     <head>
         <title>BankingQuest</title>
         <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="scripts.js"></script>
     </head>
     
     <body>
@@ -12,17 +15,18 @@
                         <img src="mobile_image.png" alt="mobile image!" />
                     </td>
                     <td>
+                        <!--
                         <div class="buttons">
-                            
-                            <div class="button">Personalise Character</div>
-                            <div class="button">Set a Quest</div>
-                            <div class="button">Add Rules</div>
-                            <div class="button">Spend Money</div>
-                            <div class="button">Save Money</div>                            
-                            <div class="button">Complete Quest</div>
+                            <div class="button" onclick="personalise()">Personalise Character</div>
+                            <div class="button" onclick="setQuest()">Set a Quest</div>
+                            <div class="button" onclick="addRules()">Add Rules</div>
+                            <div class="button" onclick="spendMoney()">Spend Money</div>
+                            <div class="button" onclick="saveMoney()">Save Money</div>           
+                            <div class="button" onclick="completeQuest()">Complete Quest</div>
                             <br />
                             
                         </div>
+-->
                     </td>
                     <td class="presentation_text_cell">
                         <h1>
@@ -35,6 +39,9 @@
                                 <li>... Number 8 will SHOCK you</li>
                             </ul>
                         </h1>
+                        <div class="next_slide">
+                            <div class="button" onClick="personalise()">Personalisation ></div>
+                        </div>
                     </td>
                 </tr>
             </table>
